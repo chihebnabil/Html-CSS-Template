@@ -1,0 +1,40 @@
+.grid-1 {
+    width: 85px;
+}
+.grid-2 {
+    width: 170px
+}
+.grid-3 {
+    width: 256px;
+}
+.grid-4 {
+    width: 341px;
+}
+.grid-8 {
+    width: 682px;
+}
+.grid-6 {
+    width: 512px;
+}
+.grid-9 {
+    width: 768px;
+}
+.grid-12 {
+    width: 1024px;
+    margin: 0 auto;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.clear: {
+    clear: both;
+}
+.center {
+    margin: 0 auto;
+}
+.inline {
+    display: inline-block;
+}
