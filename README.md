@@ -1,7 +1,7 @@
 Html Template
 ============
 
-A free HTML Template
+A **free** HTML/CSS Template
 
 Slider
 
@@ -9,7 +9,8 @@ Services Section
 
 Clients Section
 
-Uses : 
+**Uses :** 
 
 Jquery
+
 Font Awesome
