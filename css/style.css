@@ -46,15 +46,22 @@
 .header-menu ul li:hover ul {
     display: block;
 }
-.header-menu ul li ul li:before {
-    width: 10px;
-    height: 10px;
-}
 .header-menu ul li ul li {
     display: block;
     border: 2px solid #e2534b;
     margin-top: 4px;
     background-color: #e5655d;
+    right: 100;
+}
+.header-menu .arrow-up {
+    margin-left: 100px;
+    margin-top: 3px;
+    height: 0;
+    margin-bottom: 1px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid #e2534b;
+    width: 0;
 }
 /* slider  */
 
@@ -115,7 +122,9 @@
     border-radius: 10px;
     color: white;
     position: absolute;
-    top: 160px;
+    top: 30%;
+    right: 30%;
+    width: 600px;
     text-align: center;
     margin: 0 auto;
 }
@@ -127,7 +136,8 @@
     text-align: center;
     padding: 8px;
     position: absolute;
-    top: 220px;
+    top: 45%;
+    right: 27%;
     text-overflow: none;
 }
 #some-note {
