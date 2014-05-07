@@ -1,4 +1,4 @@
-input[type=text],  input[type=password],  input[type=email],  input[type=url],  input[type=date], input[type=number], .formoid-solid-green input[type=tel], .formoid-solid-green textarea, .formoid-solid-green .element-file .file_text, .formoid-solid-green select {
+input[type=text],  input[type=password],  input[type=email],  input[type=url],  input[type=date], input[type=number],  input[type=tel],  textarea,  select {
     border-style: solid;
     border-width: 2px;
     border-color: #bdc3c7;
@@ -20,29 +20,4 @@ input[type=text],  input[type=password],  input[type=email],  input[type=url],  
     -moz-appearance: none;
     appearance: normal;
     font-size: 1em;
-}
-. .large {
-    width: 100%;
-}
-.formoid-solid-green div, .formoid-solid-green span, .formoid-solid-green label, .formoid-solid-green input, .formoid-solid-green textarea, .formoid-solid-green select, .formoid-solid-green button, .formoid-solid-green ul, .formoid-solid-green li, .formoid-solid-green a {
-    font-family: inherit;
-    color: inherit;
-}
-
- div.item-cont .formoid-solid-green div, .formoid-solid-green span, .formoid-solid-green label, .formoid-solid-green input, .formoid-solid-green textarea, .formoid-solid-green select, .formoid-solid-green button, .formoid-solid-green ul, .formoid-solid-green li, .formoid-solid-green a {
-    font-family: inherit;
-    color: inherit;
-}
- div.element-input .formoid-solid-green div, .formoid-solid-green span, .formoid-solid-green label, .formoid-solid-green input, .formoid-solid-green textarea, .formoid-solid-green select, .formoid-solid-green button, .formoid-solid-green ul, .formoid-solid-green li, .formoid-solid-green a {
-    font-family: inherit;
-    color: inherit;
-}
- form.formoid-solid-green Style Attribute {
-    font-size: 14px;
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
-    color: #34495E;
-}
-.formoid-solid-green {
-    font-size: 1em;
-    line-height: 1.231;
 }
