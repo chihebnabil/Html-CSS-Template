@@ -3,6 +3,7 @@
     <head>
         <title>CHIHEB HTML TEMPLATE</title>
         <link rel="stylesheet" type="text/css" href="css/reset.css">
+        <link rel="stylesheet" type="text/css" href="css/clients-slider.css">
         <link rel="stylesheet" type="text/css" href="css/basic.css">
         <link rel="stylesheet" type="text/css" href="css/grid.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -13,129 +14,136 @@
     </head>
     <body>
         <div id="header" >
-            <div class="inner-header grid-12">
+            <div class="inner-header grid-12 ">
                 <div class="logo grid-3 left"><h1>My Logo</h1></div>
-                <div class=" grid-9 header-menu ">
+                <div class=" grid-8 header-menu right">
                     <ul>
                         <li class="grid-1">Home</li>
                         <li class="grid-1">Services<ul class="">
-                        <div class="arrow-up"></div>
-
+                            <div class="arrow-up"></div>
                             <li>Service One</li>
                             <li>Service Two</li>
                             <li>Service Three</li>
-                            </ul></li>
-                            <li class="grid-1">Portfolio</li>
-                            <li class="grid-1">Contact</li>
-                        </ul>
-                        <div class="grid-3 right"><input type="text" value="Your serach..."></div>
-                    </div>
-                </div>
-            </div>
-            <div id="slider">
-                <a class="back-btn-slider" href="#"><< </a>
-                <a class="next-btn-slider" href="#">>> </a>
-                <div id="slide1" class="slide">
-                    <center>
-                    <h1 class="">HTML TEMPLATE</h1>
-                    <div class="slide-text grid-8"> Lorem ipsum dolor sit amet, consectetur ad consectetur ad consectetur adipisicing elit, sed do eiusmod
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </div>
-                    </center>
-                </div>
-                <div id="slide2" class="grid-12 slide">
-                    <h1 class="">another Slide</h1>
-                    <div class="slide-text grid-8"> Lorem ipsum dolor sit amet, consectetur ad consectetur ad consectetur adipisicing elit, sed do eiusmod
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </div>
-                </div>
-                <!--   navigation  -->
-                <div class="grid-12">
-                    <div class="navigation">
-                        <div class="grid-8 center">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div id="some-note">
-                <div class="grid-12">
-                    <div class="grid-9 left"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </div>
-                    <div class="grid-3 right">  <a class="btn btn-blue right" href="#">red button</a>
-                    </div>
-                </div>
-            </div>
-            <!-- services -->
-            <div class="services grid-12">
-                <div class="grid-3 left">
-                    <div class="thumb">
-                        <i class="fa fa-thumbs-o-up fa-5x"></i>
-                        <h3>SERVICE</h3>
-                    </div>
-                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <p>
-                    <a class="btn btn-blue" href="#">red button</a>
-                    </p>
-                </div>
-                <div class="grid-3 left">
-                    <div class="thumb">
-                        <i class="fa fa-key fa-5x"></i>
-                        <h3>SERVICE</h3>
-                    </div>
-                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <p>
-                    <a class="btn btn-blue" href="#">red button</a>
-                    </p>
-                </div>
-                <div class="grid-3 left">
-                    <div class="thumb">
-                        <i class="fa fa-flag fa-5x"></i>
-                        <h3>SERVICE</h3>
-                    </div>
-                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <p>
-                    <a class="btn btn-blue" href="#">red button</a>
-                    </p>
-                </div>
-                <div class="grid-3 left">
-                    <div class="thumb">
-                        <i class="fa fa-tablet fa-5x"></i>
-                        <h3>SERVICE </h3>
-                    </div>
-                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <p>
-                    <a class="btn btn-blue" href="#">red button</a>
-                    </p>
-                </div>
-            </div>
-            <div class="title grid-12">
-                <h2>Titre</h2>
-                <p>Capacitance cascading integer reflective interface data development high bus cache dithering transponder.  </p>
-            </div>
-            <div id="bottom-slider" class=" grid-12"></div>
-            <div id="stats" class=" grid-12">
-                <div class="grid-3 left">
-                    <h4>Why Choose Us ?</h4>
-                    <ul>
-                        <li>list item</li>
-                        <li>list item</li>
-                        <li>list item</li>
+                        </ul></li>
+                        <li class="grid-1">Portfolio</li>
+                        <li class="grid-1">Contact</li>
                     </ul>
                 </div>
-                <div class="stats-2 grid-6 left"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
-                <div class="grid-3 right">
-                    <h4>Client ?</h4>
-                    <ul>
-                        <li>list item</li>
-                        <li>list item</li>
-                        <li>list item</li>
-                    </ul>
+            </div>
+        </div>
+        <div id="slider">
+            <a class="back-btn-slider" href="#"><< </a>
+            <a class="next-btn-slider" href="#">>> </a>
+            <div id="slide1" class="slide">
+                <center>
+                <h1 class="">HTML TEMPLATE</h1>
+                <div class="slide-text grid-8"> Lorem ipsum dolor sit amet, consectetur ad consectetur ad consectetur adipisicing elit, sed do eiusmod
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </div>
+                </center>
+            </div>
+            <div id="slide2" class="grid-12 slide">
+                <h1 class="">another Slide</h1>
+                <div class="slide-text grid-8"> Lorem ipsum dolor sit amet, consectetur ad consectetur ad consectetur adipisicing elit, sed do eiusmod
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </div>
+            </div>
+            <!--   navigation  -->
+            <div class="grid-12">
+                <div class="navigation">
+                    <div class="grid-8 center">
+                    </div>
                 </div>
+            </div>
+        </div>
+        <!--
+                                    <div id="some-note">
+                                                    <div class="grid-12">
+                                                                    <div class="grid-9 left"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                                                                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                                                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </div>
+                                                                    <div class="grid-3 right">  <a class="btn btn-blue right" href="#">red button</a>
+                                                                    </div>
+                                                    </div>
+                                    </div>
+        -->
+        <!-- services -->
+        <div class="services grid-12">
+            <div class="grid-3 left">
+                <div class="thumb">
+                    <i class="fa fa-thumbs-o-up fa-5x"></i>
+                    <h3>SERVICE</h3>
+                </div>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>
+                <a class="btn btn-blue" href="#">Button</a>
+                </p>
+            </div>
+            <div class="grid-3 left">
+                <div class="thumb">
+                    <i class="fa fa-key fa-5x"></i>
+                    <h3>SERVICE</h3>
+                </div>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>
+                <a class="btn btn-blue" href="#">Button</a>
+                </p>
+            </div>
+            <div class="grid-3 left">
+                <div class="thumb">
+                    <i class="fa fa-flag fa-5x"></i>
+                    <h3>SERVICE</h3>
+                </div>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>
+                <a class="btn btn-blue" href="#">Button</a>
+                </p>
+            </div>
+            <div class="grid-3 left">
+                <div class="thumb">
+                    <i class="fa fa-tablet fa-5x"></i>
+                    <h3>SERVICE </h3>
+                </div>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>
+                <a class="btn btn-blue" href="#">Button</a>
+                </p>
+            </div>
+        </div>
+        <div class="title grid-12">
+            <h2>Titre</h2>
+        </div>
+        <div id="bottom-slider" class=""></div>
+        <div id="stats" class=" grid-12">
+            <div class="grid-3 left">
+                <h4>Why Choose Us ?</h4>
+                <ul>
+                    <li>list item</li>
+                    <li>list item</li>
+                    <li>list item</li>
+                </ul>
+            </div>
+            <div class="stats-2 grid-6 left"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+            <div class="grid-3 right">
+                <h4>Client ?</h4>
+                <ul>
+                    <li>list item</li>
+                    <li>list item</li>
+                    <li>list item</li>
+                </ul>
+            </div>
+        </div>
+        <div id="clients">
+            <h3>Past &amp; Present Clients</h3>
+            <div class="clients-wrap">
+                <ul id="clients-list" class="clearfix" style="width: 980px;">
+                    <li style="margin-left: 0px;"><img src="images/client04-apple-inc.png" alt="Apple Computers"></li><li style="margin-left: 0px;"><img src="images/client05-google-talk.png" alt="Google chat talk"></li><li style="margin-left: 0px;"><img src="images/client06-g4tv.png" alt="G4TV channel"></li><li style="margin-left: 0px;"><img src="images/client07-wonka-candy.png" alt="Wonka Chocolates and Candy"></li><li style="margin-left: 0px;"><img src="images/client01-cartoon-network.png" alt="Cartoon Network"></li><li style="margin-left: 0px;"><img src="images/client02-rough-draft-studios.png" alt="Rough Draft Studios"></li><li style="margin-left: 0px;"><img src="images/client03-spongebob-movie2.png" alt="SpongeBob Movie #2"></li>
+                </ul>
+                </div><!-- @end .clients-wrap -->
             </div>
             <div id="footer" >
                 <div class="grid-12">

@@ -136,7 +136,7 @@
     text-align: center;
     padding: 8px;
     position: absolute;
-    top: 45%;
+    top: 50%;
     right: 27%;
     text-overflow: none;
 }
@@ -177,9 +177,10 @@
 #bottom-slider {
     height: 360px;
     display: block;
+    background: url(freemium.gif) no-repeat center;
 }
 #stats {
-    height: 280px;
+    height: 20 0px;
     text-align: center;
     color: #777777;
 }
