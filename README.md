@@ -1,4 +1,4 @@
-Html Template
+Html/CSS Template
 ============
 
 A **free** HTML/CSS Template
