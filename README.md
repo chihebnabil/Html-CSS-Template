@@ -8,3 +8,8 @@ Slider
 Services Section
 
 Clients Section
+
+Uses : 
+
+Jquery
+Font Awesome
